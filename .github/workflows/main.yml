@@ -28,7 +28,7 @@ jobs:
       - name: Dar permisos de ejecución a Maven (Opcional pero recomendado)
         run: chmod +x mvnw
 
-      # Build, Test y Package
+      # Build, Test y Packages
       - name: Compilar, ejecutar pruebas y empaquetar (mvn clean install)
         run: ./mvnw clean install -Dspring.profiles.active=dev
 
